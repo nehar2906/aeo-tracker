@@ -2,10 +2,6 @@
 
 # dependencies
 /node_modules
-.next
-.env
-.DS_Store
-.vercel
 /.pnp
 .pnp.*
 .yarn/*
@@ -13,6 +9,12 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+
+node_modules
+.next
+.env
+.DS_Store
+.vercel
 
 # testing
 /coverage
